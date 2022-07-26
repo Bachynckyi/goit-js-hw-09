@@ -23,7 +23,7 @@ const options = {
       Notiflix.Notify.failure('Please choose a date in the future');
     }
     else {
-        buttonStart.removeAttribute('disabled', true);
+        buttonStart.removeAttribute('disabled');
     }
   },
 };

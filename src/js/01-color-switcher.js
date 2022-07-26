@@ -15,14 +15,14 @@ function onStart() {
   bodyColor.style.backgroundColor = randomColor;
   }, 1000);
   buttonStart.setAttribute('disabled', true);
-  buttonStop.removeAttribute('disabled', true);
+  buttonStop.removeAttribute('disabled');
 };
 
 function onStop() {
 
   clearInterval(timerId);
   buttonStop.setAttribute('disabled', true);
-  buttonStart.removeAttribute('disabled', true);
+  buttonStart.removeAttribute('disabled');
 };
 
 function getRandomHexColor() {
