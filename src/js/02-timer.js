@@ -47,7 +47,7 @@ const timer = {
 };
 
 buttonStart.addEventListener('click', () => {
-    buttonStart.setAttribute('disabled', '');
+    buttonStart.setAttribute('disabled', 'disabled');
     timer.start();
 })
 
