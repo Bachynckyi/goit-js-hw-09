@@ -9,20 +9,20 @@ buttonStop.addEventListener("click", onStop);
 buttonStop.setAttribute('disabled', true);
 
 function onStart() {
-  
+
   timerId = setInterval(() => {
   const randomColor = getRandomHexColor();
   bodyColor.style.backgroundColor = randomColor;
   }, 1000);
   buttonStart.setAttribute('disabled', true);
-  buttonStop.removeAttribute('disabled');
+  buttonStop.removeAttribute('disabled', true);
 };
 
 function onStop() {
 
   clearInterval(timerId);
   buttonStop.setAttribute('disabled', true);
-  buttonStart.removeAttribute('disabled');
+  buttonStart.removeAttribute('disabled', true);
 };
 
 function getRandomHexColor() {
