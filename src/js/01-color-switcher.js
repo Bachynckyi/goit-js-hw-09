@@ -9,6 +9,7 @@ buttonStop.addEventListener("click", onStop);
 buttonStop.setAttribute('disabled', true);
 
 function onStart() {
+  
   timerId = setInterval(() => {
   const randomColor = getRandomHexColor();
   bodyColor.style.backgroundColor = randomColor;
@@ -18,6 +19,7 @@ function onStart() {
 };
 
 function onStop() {
+
   clearInterval(timerId);
   buttonStop.setAttribute('disabled', true);
   buttonStart.removeAttribute('disabled');
