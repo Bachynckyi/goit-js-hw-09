@@ -16,7 +16,7 @@ img {
   display: block;
   max-width: 100%;
 }
-
+/* task_1 */
 .task1 {
   display: flex;
   justify-content: center;
@@ -33,4 +33,49 @@ img {
   width: 150px;
   height: 80px;
   font-size: 35px;
+}
+
+/* task_2 */
+
+.timer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.value {
+  font-size: 30px;
+  font-weight: 500;
+}
+.input {
+  display: flex;
+  justify-content: center;
+}
+#datetime-picker {
+  margin-right: 10px;
+}
+button {
+  width: 70px;
+  height: 30px;
+  font-weight: 500;
+  font-size: 18px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.field:not(:last-child) {
+  margin-right: 20px;
+}
+
+.label {
+  font-weight: 500;
+}
+
+.createPromices {
+    width: 150px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 18px;
 }
