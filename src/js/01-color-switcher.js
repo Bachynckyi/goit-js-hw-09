@@ -8,7 +8,7 @@ buttonStop.addEventListener("click", onStop);
 
 buttonStop.setAttribute('disabled', true);
 
-let timerID = 0;
+let timerId = 0;
 
 function onStart() {
 
